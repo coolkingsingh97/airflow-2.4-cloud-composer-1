@@ -6,7 +6,7 @@ from airflow.operators.email import EmailOperator
 
 with airflow.DAG (
     "composer_sample_sendgrid",
-    start_date = datetime.datetime(2022,1,1),
+    start_date = datetime.datetime(2023,7,9),
 ) as dag:
     task_email = EmailOperator(
         task_id = "send-email",
