@@ -9,10 +9,10 @@ with airflow.DAG (
     start_date = datetime.datetime(2022,1,1),
 ) as dag:
     task_email = EmailOperator(
-        task_id = "send-email"
-        conn_id = "sendgrid_default"
-        to = "kulraj0000@gmail.com"
-        subject = "EmailOperator test for Sendgrid"
+        task_id = "send-email",
+        conn_id = "sendgrid_default",
+        to = "kulraj0000@gmail.com",
+        subject = "EmailOperator test for Sendgrid",
         html_content = "This is a test message sent through sendgrid",
         dag = dag,
     )
