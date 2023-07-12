@@ -1,2 +1,4 @@
-# airflow-2.4-cloud-composer-1
-POC repo for working of airflow using google cloud composer
+# Composer CI/CD POC
+
+Code in this directory is part of a POC performed at by company Springboard, the code is referenced from(https://cloud.google.com/composer/docs/composer-2/dag-cicd-github). 
+
